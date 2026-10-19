@@ -1,4 +1,3 @@
-
 # Terraform local files
 .terraform/
 *.tfstate
@@ -7,13 +6,15 @@
 crash.log
 crash.*.log
 
-# Sensitive credentials
+# AWS credentials and secrets
 .env
 .env.*
 *.pem
 *.key
+credentials
 
-# Installation files
+# AWS CLI local configuration and installation files
+aws/
 awscliv2.zip
 
 # Editor and operating system files
