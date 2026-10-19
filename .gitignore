@@ -1,0 +1,22 @@
+
+# Terraform local files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Sensitive credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Installation files
+awscliv2.zip
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
